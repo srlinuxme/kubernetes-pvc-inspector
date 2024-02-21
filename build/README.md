@@ -14,14 +14,7 @@ Based on ubuntu 22.04 (jammy), this image mounts pvc on /pvc path.
 - zip
 
 # Use this image:
-```
-docker push srlinuxme/pvc-inspector:latest
-```
-
-Or with a version tag set:
-```
-docker push srlinuxme/pvc-inspector:jammy
-```
+- See the [README](./README.md) to use this image.
 
 # Build
 ```
@@ -32,4 +25,13 @@ docker tag srlinuxme/pvc-inspector:jammy srlinuxme/pvc-inspector:latest
 docker push srlinuxme/pvc-inspector:jammy && docker push srlinuxme/pvc-inspector:latest 
 ```
 
+# Push
+```
+docker push srlinuxme/pvc-inspector:latest
+```
+
+Or with a version tag set:
+```
+docker push srlinuxme/pvc-inspector:jammy
+```
 
