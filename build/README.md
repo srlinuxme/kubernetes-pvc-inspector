@@ -14,7 +14,7 @@ Based on ubuntu 22.04 (jammy), this image mounts pvc on /pvc path.
 - zip
 
 # Use this image:
-- See the [README](./README.md) to use this image.
+- See the [README](../README.md) to use this image.
 
 # Build
 ```
